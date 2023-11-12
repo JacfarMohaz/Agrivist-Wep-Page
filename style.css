@@ -1,0 +1,901 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f0f0f0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+/* .logo{
+    font-size: 22px;
+    font-family: 500;
+} */
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    margin-left: 180px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.check, .menu{
+    display: none;
+}
+.loginBtn{
+    background-color: #204E51;
+    padding: 10px 35px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.signupBtn{
+    background-color: transparent;
+    border: 1px #204E51 solid;
+    padding: 10px 35px;
+    color: #204E51;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.header-btn{
+    display: flex;
+    gap: 25px;
+}
+
+
+/* getStart section */
+
+
+.getStart{
+    height: 700px;
+    background-image: linear-gradient(rgba(32, 32, 81, 0.678), rgba(105, 87, 163, 0.5)), url("assets/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.getStart h1{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 5em;
+}
+.getStart p{
+    text-align: center;
+    padding-top: 10px;
+}
+.show-btn{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.getstar-btn{
+    background-color: #204E51;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.learnMore-btn{
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+/* passion section */
+
+
+.passion{
+    height: 500px;
+    display: flex;
+    padding-left: 100px;
+}
+.left-side{
+    width: 450px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+.left-side h1{
+    font-size: 3em;
+    font-weight: 900;
+    color: #204E51;
+    padding-bottom: 20px;
+}
+.left-side p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.right-side{
+    width: 400px;
+    padding-top: 82px;
+    padding-right: 50px;
+}
+.back-img{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    /* background-image: url("assets/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.back-img img{
+    width: 100%;
+}
+.front-img{
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+    height: 60px;
+    width: 180px;
+    border-radius: 18px;
+    background-color: #ffffff;
+}
+.front-img h3{
+    color: #204E51;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.4em;
+}
+
+/* services section */
+
+
+.services{
+    padding-top: 160px;
+    /* height: 500px; */
+}
+.services h1{
+    color: #204E51;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.services p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box-parent-service{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 30px;
+    padding-left: 250px;
+}
+.box{
+    background-color: #ffffff;
+    height: 200px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    
+    box-shadow: 0px 6px 3px gray;
+}
+.box img{
+    width: 60px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.box h5{
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: center;
+    color: #204E51;
+}
+/* produc */
+
+.products{
+    padding-top: 10em;
+    height: 700px;
+}
+.products h1{
+    color: #204E51;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.products p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box-parent-product{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 30px;
+    padding-left: 250px;
+}
+.box1{
+    background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+    border: none;                           
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px gray;
+    margin-bottom: 80px;
+}
+.box1 img{
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 120px;
+}
+.box1 h5{
+    font-size: 1.3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #204E51;
+}
+.box1 p{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.products a{
+    padding-left: 650px;
+    color: #204E51;
+}
+
+/* Farming section */
+
+.farming{
+    margin-top: 90px;
+    height: 500px;
+    background-image: linear-gradient(rgba(32, 32, 81, 0.678), rgba(105, 87, 163, 0.5)), url("assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.farming h1{
+    text-align: start;
+    padding-left: 120px;
+    padding-top: 90px;
+    font-size: 4em;
+}
+.farming-btn{
+    display: flex;
+    gap: 25px;
+    justify-content: start;
+    padding-left: 120px;
+    padding-top: 60px;
+}
+.learn-btn{
+    background-color: #204E51;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.contact-btn{
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+/* benefite section */
+
+.benefits{
+    height: 600px;
+    display: flex;
+    padding-left: 100px;
+}
+.benefit-left{
+    width: 450px;
+    padding-top: 180px;
+    padding-left: 90px;
+}
+.benefit-left h1{
+    font-size: 3em;
+    font-weight: 900;
+    color: #204E51;
+    padding-bottom: 20px;
+}
+.benefit-left{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.benefit-btn{
+    margin-top: 40px;
+    background-color: #204E51;
+    padding: 10px 45px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.benefit-btn i{
+    font-size: 15px;
+    padding-left: 5px;
+}
+.benefit-right{
+    margin-top: 140px;
+    background-color: #204E51;
+    height: 400px;
+    width: 350px;
+    color: white;
+    border-radius: 15px;
+}
+.benefit-right img{
+    width: 50px;
+}
+.benefit-box{
+    padding-left: 80px;
+    padding-top: 60px;
+}
+.experience{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 25px;
+}
+.start-title h3{
+    font-size: 1.6em;
+    padding-bottom: 8px;
+}
+.start-title p{
+    font-size: 12px;
+}
+.product-icon{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 25px;
+}
+.clients{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 25px;
+}
+.members{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 25px;
+}
+
+
+/* testimonials section */
+
+.testimonials{
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 700px;
+}
+.testimonials h1{
+    color: #204E51;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.testimonials p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.container{
+    display: flex;
+    margin-left: 290px;
+}
+.testi-card{
+    margin-left: 350px;
+    margin-top: 40px;
+    background-color: #204E51;
+    color: white;
+    height: 200px;
+    width: 550px;
+    border-radius: 15px;
+    display: flex;
+    gap: 40px;
+    padding-left: 70px;
+    padding-top: 60px;
+}
+.testi-card img{
+    width: 150px;
+    height: 150px;
+}
+.start-icon i{
+    color: #ffbe40;
+    padding-bottom: 25px;
+}
+.testi-card h3{
+    padding-bottom: 15px;
+}
+.testi-card p{
+    font-size: 12px;
+    color: gray;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.testi-card h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+.left-icon{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-top: 140px;
+    margin-right: -289px;
+}
+.left-icon img{
+    padding-left: 10px;
+    padding-top: 13px;
+}
+.right-icon{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+.right-icon img{
+    padding-left: 13px;
+    padding-top: 13px;
+}
+
+
+/* blog section */
+
+
+.blog{
+    margin-top: -20px;
+    padding-top: 10px;
+    height: 750px;
+}
+.blog h1{
+    color: #204E51;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.blog p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box-parent-blog{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 30px;
+    padding-left: 290px;
+}
+/* .blog-box{
+    background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+    border: none;                           
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px gray;
+    margin-bottom: 80px;
+} */
+.blog-box img{
+    width: 100%;
+}
+.blog-box h5{
+    font-size: 1.3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+    color: #204E51;
+}
+.blog-box p{
+    font-size: 15px;
+    text-align: start;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+.blog-box a{
+    color: #204E51;
+}
+
+
+
+/* footer section */
+
+
+.footer{
+    margin-top: 80px;
+    height: 150px;
+    background-color: #204E51;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 130px 80px;
+}
+.footer-logo{
+    padding-bottom: 35px;
+    font-size: 1.4em;
+}
+.footer-icons{
+    padding-top: 35px;
+    padding-left: -60px;
+}
+.footer-icons img{
+    width: 30px;
+    padding-left: 20px;
+}
+.right-footer{
+    padding-top: 30px;
+    padding-right: 230px;
+    display: flex;
+    gap: 120px;
+}
+.right-footer h4{
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+.right-footer p{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#menu-icon{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+
+
+
+
+
+/* responsive section */
+
+
+@media screen and (max-width: 600px){
+    #menu-icon {
+        display: block;
+        padding-top: 5px;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header ul{
+        display: none;
+    }
+    .logo{
+        font-size: 18px;
+        /* margin-left: -70px; */
+    }
+    .header{
+        padding: 10PX 10PX;
+    }
+    .getStart h1{
+        padding-top: 70px;
+        font-size: 30px;
+    }
+    .getStart p{
+        margin: 10px;
+    }
+    .getStart{
+        height: 450px;
+    }
+    .passion{
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 30em;
+    }
+    .left-side{
+        width: 100%;
+        margin: 20px;
+        padding-left: 0;
+    }
+    .left-side h1{
+        font-size: 40px;
+    }
+    .right-side{
+        padding-right: 0;
+        width: 100%;
+        /* margin: 10px; */
+    }
+    .back-img{
+        padding-left: 0px;
+        width: 400px;
+    }
+    .front-img{
+        bottom: 70px;
+        left: 90px;
+    }
+    .services{
+        margin-bottom: 10em;
+    }
+    .services h1{
+        font-size: 40px;
+    }
+    .box-parent-service{
+        grid-template-columns: 250px;
+        padding-left: 50px;
+    }
+    .products{
+        margin-bottom: 100em;
+    }
+    .products h1 {
+        font-size: 30px;
+    }
+    .products a{
+        padding-left: 120px;
+    }
+    .box-parent-product{
+        grid-template-columns: 200px;
+        padding-left: 70px;
+        gap: 0px;
+    }
+    .farming{
+        padding: 20px 30px;
+        height: 200px;
+    }
+    .farming h1{
+        font-size: 28px;
+        padding-left: 0px;
+        padding-top: 0;
+    }
+    .farming-btn{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .benefits{
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 25em;
+    }
+    .benefit-left{
+        padding-left: 20px;
+    }
+    .benefit-right{
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .benefit-box{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    .testimonials h1{
+        font-size: 40px;
+    }
+    .testimonials p{
+        font-size: 15px;
+    }
+    .container{
+        margin-left: 0px;
+        gap: 2px;
+        padding: 0px;
+    }
+    .testi-card{
+        margin-left: 20em;
+        gap: 19px;
+        padding: 10px;
+        width: 300px;
+    }
+    .testi-card p{
+        font-size: 14px;
+    }
+    .testi-card h3{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .testi-card img{
+        width: 60px;
+        height: 60px;
+        margin-top: 30px;
+    }
+    .blog{
+        margin-bottom: 1200px;
+    }
+    .blog h1{
+        font-size: 40px;
+    }
+    .blog p{
+        font-size: 15px;
+    }
+    .box-parent-blog{
+        grid-template-columns: 250px;
+        padding-left: 70px;
+    }
+    .footer{
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        gap: 10px;
+    }
+    .right-footer{
+        padding-right: 15px;
+        gap: 15px;
+    }
+    .footer-logo{
+        font-size: 10px;
+    }
+    .right-footer h4, p{
+        font-size: 9px;
+    }
+    .footer-icons img{
+        width: 10px;
+        margin-bottom: 40px;
+    }
+
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .header-btn{
+        display: none;
+    }
+    .header{
+        padding: 15px;
+    }
+    .getStart h1{
+        font-size: 50px;
+    }
+    .getStart p{
+        margin: 0px;
+        font-size: 20px;
+    }
+    .getstar-btn{
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+    .learnMore-btn{
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+    .passion{
+        padding-left: 10px;
+        margin-bottom: 5em;
+    }
+    .left-side{
+        width: 100%;
+        margin: 20px;
+        padding-left: 0;
+    }
+    .left-side h1{
+        font-size: 40px;
+    }
+    .right-side{
+        padding-right: 0;
+        width: 100%;
+        /* margin: 10px; */
+    }
+    .back-img{
+        padding-left: 0px;
+        width: 400px;
+    }
+    .front-img{
+        bottom: 70px;
+        left: 90px;
+    }
+    .services{
+        margin-bottom: 5em;
+    }
+    .services h1{
+        font-size: 5em;
+    }
+    .box-parent-service{
+        grid-template-columns: 250px 250px;
+        padding-left: 120px;
+    }
+    .box img{
+        padding-left: 100px;
+    }
+    .products{
+        margin-bottom: 40em;
+    }
+    .products h1 {
+        font-size: 4em;
+    }
+    .products a{
+        padding-left: 360px;
+    }
+    .box-parent-product{
+        grid-template-columns: 200px 200px;
+        padding-left: 150px;
+        gap: 45px;
+    }
+    .farming{
+        padding: 20px 30px;
+        height: 230px;
+    }
+    .farming h1{
+        font-size: 38px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .farming-btn{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .benefits{
+        padding: 30px;
+        margin-bottom: 5em;
+    }
+    .benefit-left{
+        padding-left: 20px;
+    }
+    .benefit-right{
+        width: 300px;
+        margin-top: 150px;
+        margin-left: -70px;
+    }
+    .benefit-box{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    .testimonials h1{
+        font-size: 4em;
+    }
+    .testimonials p{
+        font-size: 15px;
+    }
+    .container{
+        margin-left: 20px;
+        gap: 2px;
+        padding: 0px;
+    }
+    .testi-card{
+        margin-left: 20em;
+        gap: 29px;
+        padding: 40px 40px;
+        width: 460px;
+    }
+    .testi-card p{
+        font-size: 19px;
+    }
+    .testi-card h3{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+    }
+    .testi-card img{
+        width: 130px;
+        height: 130px;
+        margin-top: 30px;
+    }
+    .start-icon i{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .blog{
+        margin-bottom: 40em;
+    }
+    .blog h1{
+        font-size: 4em;
+    }
+    .blog p{
+        font-size: 18px;
+    }
+    .box-parent-blog{
+        grid-template-columns: 250px 250px;
+        padding-left: 120px;
+    }
+    .footer{
+        padding: 30px 50px;
+        margin: 0;
+        width: 100%;
+        gap: 5px;
+        height: 200px;
+    }
+    .right-footer{
+        padding-right: 86px;
+        gap: 10px;
+    }
+    .footer-logo{
+        font-size: 15px;
+    }
+    .right-footer h4, p{
+        font-size: 20px;
+    }
+    .footer-icons img{
+        width: 20px;
+        margin-bottom: 40px;
+    }
+    
+}
